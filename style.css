@@ -1,0 +1,837 @@
+body {
+    margin: 0;
+    background-color: #f5f5f7;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.home {
+    width: 100%;
+    height: 600px;
+}
+.header {
+    position: absolute;
+    padding-top: 10px;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    z-index: 2;
+}
+.logo {
+    margin-left: 230px;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.header-logo {
+    width: 15px;
+    height: auto;
+}
+.nav-options {
+    float: left;
+    width: 1000px;
+    height: 30px;
+}
+.nav-text {
+    float: left;
+    margin-left: 38px;
+    margin-top: 4px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgba(50, 50, 50, 0.8);
+    font-size: 12px;
+}
+.search-icon-class {
+    width: 20px;
+    height: 44px;
+    margin-left: 874px;
+   
+}
+.search-icon {
+    margin-top: -10px;
+    margin-left: 40px;
+}
+.bag-icon-class {
+    width: 14px;
+    height: 44px;
+    margin-left: 960px;
+    margin-top: -54px;
+
+}
+.search-icon {
+
+}
+.home-text {
+    width: 400px;
+    height: 70px;
+    margin-left: 600px;
+}
+.iphone-text {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 40px;
+    letter-spacing: -.005em;
+    color: #1d1d1f;
+}
+.home-para {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #1d1d1f;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+.home-buttons {
+    width: 320px;
+    height: 50px2;
+    margin-top: 60px;
+    margin-left: 590px;
+}
+.learn-more {
+    width: 130px;
+    height: 44px;
+    border-radius: 50px;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border-style: solid;
+    border-width: 1px;  
+    background: #0071e3;
+    color: #fff;
+    border-color: rgba(0,0,0,0);
+}
+.shop-iphone {
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 17px;
+    background: white;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border: 1px solid;
+    border-color: #0071e3;
+    color: #0071e3;
+    margin-left: 15px;
+}
+.learn-more:hover {
+    cursor: pointer;
+}
+.shop-iphone:hover {
+    background: #0071e3;
+    color: white;
+    cursor: pointer;
+}
+.sub-text {
+    width: 300px;
+    height: 50px;
+    margin-left: 610px;
+    margin-top: 30px;
+}
+.sub-text-design {
+    font-size: 20px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.background-img {
+    width: 100%;
+    height: 500px;
+    margin-top: -100px;
+    z-index: 0;
+}
+.home-img {
+    width: 1000px;
+    height: 440px;
+    object-fit: cover;
+    margin-top: 90px;
+    margin-left: 230px;
+}
+.background-video {
+    width: 100%;
+    height: 850px;
+    margin-top: 20px;
+}
+.bg-video {
+    position: relative;
+    width: 1400px;
+    height: 750px;
+    object-fit: cover;
+    z-index: -1;
+}
+.bubble-svg {
+    position: absolute;
+    z-index: 0;
+    margin-top: 40px;
+    margin-left: 600px;
+    width: 320px;
+    height: auto;
+}
+.svg-img-1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 820px;
+    margin-top: -790px;
+}
+.img-1 {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+}
+.svg-img-2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 850px;
+    margin-top: -113px;
+}
+.img-2 {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    z-index: 1;
+
+}
+.svg-text-1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 630px;
+    margin-top: -263px;
+}
+.svg-text-1-design {
+    position: absolute;
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    z-index: 3;
+    margin-top: 30px;
+}
+.svg-2 {
+    width: 400px;
+    height: 100px;
+    margin-top: -20px;
+}
+.svg-text-2 {
+    width: 400px;
+    height: 100px;
+    margin-left: 625px;
+    margin-top: -72px;
+}
+.svg-text-2-design {
+    position: absolute;
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    z-index: 3;
+}
+.svg-3 {
+    width: 500px;
+    height: 500px;
+    margin-top: -50px;
+}
+.svg-img-3 {
+    width: 100px;
+    height: 100px;
+    margin-left: 294px;
+    margin-top: -240px;
+
+}
+.svg-img-3 {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    z-index: 2;
+}
+.svg-text-3 {
+    width: 500px;
+    height: 500px;
+    margin-left: 640px;
+    margin-top: -495px;
+}
+.svg-text-3-design {
+    position: absolute;
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    z-index: 3;
+}
+.svg-button {
+    width: 200px;
+    height: 100px;
+    margin-left: 700px;
+    margin-top: -200px;
+}
+.shop-button {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    background: white;
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: #0071e3;
+    color: #0071e3;
+    z-index: 1;
+    font-size: 17px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.shop-button:hover {
+    background: #0071e3;
+    color: white;
+    cursor: pointer;
+}
+.bg-img-ipad {
+    width: 100%;
+    height: 600px;
+}
+.ipad {
+    position: relative;
+    width: 1430px;
+    height: 680px;
+    object-fit: cover;
+    z-index: -1;
+}
+.ipad-text {
+    width: 300px;
+    height: 100px;
+    margin-top: -680px;
+    margin-left: 560px;
+}
+.ipad-pro {
+    position: absolute;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 40px;
+    letter-spacing: -.005em;
+    color: white;
+    z-index: 1;
+}
+.ipad-sub-text {
+     width: 600px;
+    height: 100px;
+    margin-left: 570px;
+    margin-top: 10px;
+}
+.ipad-pro-sub {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: white;
+    margin-left: -100px;
+}
+.ipad-buttons {
+    width: 500px;
+    height: 200px;
+    margin-left: 599px;
+    margin-top: -40px;
+}
+.shop-iphone-2 {
+    width: 80px;
+    height: 44px;
+    border-radius: 50px;
+    font-size: 17px;
+    background: black;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border: 1px solid;
+    border-color: #0071e3;
+    color: #0071e3;
+    margin-left: 12px;
+}
+.shop-iphone-2:hover {
+    background: #0071e3;
+    color: white;
+    cursor: pointer;
+}
+.ipad-ai-text {
+    width: 300px;
+    height: 70px;
+    margin-left: 600px;
+    margin-top: 210px;
+}
+.collage {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2,710px);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.box {
+    height: 580px;
+}
+.img-grid {
+    position: relative;
+    object-fit: cover;
+    width: 710px;
+    height: 580px;
+    cursor: pointer;
+    z-index: -1;
+}
+.mac-grid-text {
+    width: 400px;
+    height: 800px;
+    margin-top: -560px;
+    margin-left: 250px;
+}
+.mac-grid-text-design {
+    position: absolute;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -.005em;
+    color: #1d1d1f;
+    z-index: 0;
+
+}
+.mac-grid-text-2{
+    width: 400px;
+    height: 80px;
+    margin-left: 300px;
+    margin-top: -220px;
+
+}
+.mac-grid-text-3-design,
+.mac-grid-text-2-design {
+    position: absolute;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -.005em;
+    color: #1d1d1f;
+    z-index: 0;
+    margin-top: -500px;
+}
+.mac-grid-text-3 {
+    width: 400px;
+    height: 80px;
+    margin-left: 225px;
+    margin-top: -56px;
+}
+.mac-grid-buttons {
+    width: 200px;
+    height: 50px;
+    margin-left: 280px;
+    margin-top: -535px;
+}
+.learn-more-mac-grid{
+    width: 110px;
+    height: 38px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 1.17648;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border-style: solid;
+    border-width: 1px;  
+    background: #0071e3;
+    color: #fff;
+    border-color: rgba(0,0,0,0);
+}
+.shop-iphone-2-mac-grid {
+    width: 65px;
+    height: 38px;
+    border-radius: 50px;
+    font-size: 14px;
+    background: transparent;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border: 1px solid;
+    border-color: #0071e3;
+    color: #0071e3;
+    margin-left: 8px;
+}
+.learn-more-mac-grid:hover {
+    cursor: pointer;
+}
+.shop-iphone-2-mac-grid:hover {
+    background: #0071e3;
+    color: white;
+    cursor: pointer;
+}
+.mac-grid-ai-text {
+    margin-top: 300px;
+    margin-left: 270px;
+}
+.mac-grid-ai-text-design {
+    font-size: 15px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.ipad-text-img {
+    width: 200px;
+    height: 40px;
+    margin-top: -530px;
+    margin-left: 300px;
+}
+.ipad-text-img-design {
+    position: absolute;
+    width: 147px;
+    z-index: 1;
+}
+.ipad-grid-text{
+    width: 600px;
+    height: 45px;
+    margin-top: -20px;
+    margin-left: 210px;
+}
+.ipad-grid-text-3-design {
+    position: absolute;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -.005em;
+    color: #1d1d1f;
+    z-index: 0;
+}
+.ipad-grid-buttons {
+    width: 400px;
+    height: 50px;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+.ipad-grid-ai-text {
+    margin-top: 340px;
+    margin-left: 270px;
+}
+.wach-text-img {
+    width: 200px;
+    height: 65px;
+    margin-top: -520px;
+    margin-left: 280px;
+}
+.watch-text-img-design {
+    width: 155px;
+}
+.slider-grid {
+    display: grid;
+    grid-template-columns: 215px 980px 215px;
+    column-gap: 10px;
+}
+.slider {
+    height: 523px;
+    background: linear-gradient(to top,rgba(0,0,0,0.3),transparent 50%);
+    
+}
+.slider-img-1 {
+    width: 215px;
+    height: 523px;
+    object-fit: cover;
+    object-position: right;
+    opacity: 0.2;
+}
+.slider-img-2 {
+    position: relative;
+    width: 980px;
+    height: 523px;
+    object-fit: cover;
+    z-index: -1;
+}
+.slider-img-3 {
+    width: 215px;
+    height: 523px;
+    object-fit: cover;
+    object-position: left;
+    opacity: 0.2;
+}
+.slide-button {
+    width: 140px;
+    height: 50px;
+    margin-top: -80px;
+    margin-left: 50px;
+}
+.slide-button-design {
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    width: 138px;
+    height: 45px;
+    border-radius: 50px;
+    z-index: 0;
+    font-size: 15px;
+}
+.slide-button-design:hover {
+    cursor: pointer;
+}
+.slide-text {
+    width: 600px;
+    height: 50px;
+    margin-top: -60px;
+    margin-left: 210px;
+}
+.slider-text-3 {
+    color: rgb(221, 220, 220);
+    font-size: 20px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+.dot-class {
+    width: 100%;
+    height: 25px;
+}
+.dots {
+    margin-top: 15px;
+    margin-left: 590px;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(157, 156, 156);
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+}
+.app-slider {
+    display: grid;
+    grid-template-columns: 280px 417px 417px 280px;
+    column-gap: 10px;
+}
+.app-slider-1{
+    transition: background-color 0.4s;
+    background: linear-gradient(to top, rgba(0,0,0,0.4), transparent 50%);
+}
+.app-slider-1-img {
+    position: relative;
+    width: 280px;
+    height: 236px;
+    object-fit: cover;
+    object-position: right;
+    z-index: -1;
+}
+.app-slider-1-button {
+    width: 120px;
+    height: 40px;
+    margin-top: -100px;
+    padding-left: 40px;
+}
+.app-slider-1-button-design {
+    position: absolute;
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    z-index: 0;
+    font-size: 15px;
+    z-index: 0;
+    opacity: 0;
+    transform: translate(-15px,-25px);
+    
+}
+.app-slider-1:hover .app-slider-1-button-design{
+    opacity: 0.9;
+    transform: translate(-15px,-40px);
+    transition: transform 0.35s;
+}
+
+.app-slider-1:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.4);
+}
+.app-slider-1-text {
+    margin-top: -25px;
+    margin-left: -55px;
+}
+.app-slider-1-text {
+    color: rgb(233, 232, 232);
+    font-size: 15px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+}
+.app-slid-svg {
+    width: 80px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.app-slider-2 {
+    position: relative;
+    width: 417px;
+    height: 236px;
+    background-color: rgb(222, 91, 192);
+    transition: hover 0.4s;
+
+}
+.app-slider-2-overlay {
+    position: absolute;
+    width: 417px;
+    height: 236px;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+.app-slider-2-img {
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 22px;
+
+}
+.app-slider-2-img-design {
+    position: absolute;
+    width: 190px;
+    border-radius: 8px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.2);
+    z-index: 0;
+}
+.app-slider-2-button {
+    width: 120px;
+    height: 40px;
+}
+.app-slider-2-button-design {
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 15px;
+    opacity: 0;
+    transform: translate(160px,100px);
+    transition: transform 0.35s;
+    z-index: 2;
+    
+}
+.app-slider-2:hover .app-slider-2-overlay{
+    opacity: 1;
+}
+.app-slider-2:hover .app-slider-2-button-design{
+    opacity: 0.9;
+    transform: translate(160px,80px);
+    
+}
+.app-slider-2-text {
+    width: 100px;
+    height: 50px;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+.app-slider-2-text-design {
+    color: black;
+    font-size: 14px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+
+}
+.app-slider-2-svg {
+    width: 60px;
+    margin-top: 33px;
+    margin-left: 330px;
+}
+
+.app-slider-3 {
+    transition: background-color 0.4s;
+    background: linear-gradient(to top, rgba(0,0,0,0.4), transparent 50%);
+}
+
+.app-slider-3-img {
+    position: relative;
+    width: 417px;
+    height: 236px;
+    object-fit: cover;
+    z-index: -1;
+}
+.app-slider-3-button {
+    width: 120px;
+    height: 40px;
+    margin-top: -100px;
+    padding-left: 170px;
+}
+.app-slider-3-button-design {
+    position: absolute;
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    z-index: 0;
+    font-size: 15px;
+    z-index: 0;
+    opacity: 0;
+    transform: translate(-15px,-25px);
+    
+}
+.app-slider-3:hover .app-slider-3-button-design{
+    opacity: 0.9;
+    transform: translate(-15px,-40px);
+    transition: transform 0.35s;
+}
+
+.app-slider-3:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.4);
+}
+.app-slider-3-svg {
+    width: 70px;
+    margin-top: 24px;
+    margin-left: 330px;
+}
+.app-slider-3-text {
+    margin-top: -10px;
+    margin-left: 8px;
+}
+.app-slider-3-text {
+    position: absolute;
+    color: rgb(233, 232, 232);
+    font-size: 15px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.app-slider-4-img {
+    position: relative;
+    width: 280px;
+    height: 236px;
+    object-fit: cover;
+    object-position: left;
+    z-index: -1;
+    
+}
+.terms-text {
+    width: 1000px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 75px;
+}
+.terms-text-design {
+    font-size: 13px;
+    color: gray;
+}
+.footer {
+    width: 1000px;
+    height: auto;
+    margin-left: 200px;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.footer-text-heading {
+    color: rgb(67, 65, 65);
+    font-size: 12px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 450;
+}
+.footer-text {
+    color: rgb(123, 123, 123);
+    font-size: 12px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+}
